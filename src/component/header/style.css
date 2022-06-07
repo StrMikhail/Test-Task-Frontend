@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    position: absolute;
+    padding: 3rem 6rem;
+    z-index: 10;
+}
+
+.header-icon{
+    border-right: 2px solid black;
+    padding: 0 2rem;
+}
+.icon-pr{
+    height: 2rem;
+}
+
+.header-text{
+    padding: 0 2rem;
+    margin: auto 0;
+}

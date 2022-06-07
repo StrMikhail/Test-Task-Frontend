@@ -1,0 +1,83 @@
+.third-page{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 1.7rem;
+
+}
+
+.third-page-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin: auto;
+    left: 20rem;
+}
+.hidden{
+    visibility: hidden;
+}
+.third-content-title{
+    height: 50%;
+    width: 50%;
+    padding: 2rem 0 2rem;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+
+.third-content-blocks{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 4rem 0 0;
+
+}
+
+.blocks-plate{
+    height: 100%;
+    width: 100%;
+}
+.palte-text{
+    position: relative;
+    margin: auto;
+    left: -4rem;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3rem;
+    justify-content: center;
+}
+.palte-text > p {
+    padding: 4rem 3rem 3rem 7rem;
+}
+
+.block-card{
+    height: 100%;
+    width: 100%;
+}
+.card-text{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+}
+.card-text > p{
+    padding: 2rem 3rem;
+}
+.card-buttom{
+    height: 100%;
+    width: 100%;
+
+}
+.brand{
+    font-size: 6rem;
+}
+.button-content > button > h1{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 200;
+}   

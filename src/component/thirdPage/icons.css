@@ -1,0 +1,144 @@
+.icon-bg-3{
+    position: absolute;
+    width: 15rem;
+    bottom: 0;
+    left: 4rem;
+    z-index: 11;
+}
+.icon-card-1{
+    position: absolute;
+    height: 5rem;
+    top: -3rem;
+    left: 7rem
+}
+
+.icon-card-2{
+    position: absolute;
+    height: 5rem;
+    top: -3rem;
+    left: 3rem
+}
+
+.babble-1{
+    width: 3rem;
+    height: 3rem;
+    top: 9rem;
+    left: 7rem;
+    z-index: 10;
+    animation: babbleOne ease-in-out  7s infinite;
+
+}
+@keyframes babbleOne {
+50%{
+    top: 7rem;
+    left: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+}
+.babble-2{
+    top: 23rem;
+    left: 12rem;
+    height: 10rem;
+    width: 10rem;
+    z-index: 10;
+    animation: babbleTwo ease-in-out  7s infinite;
+}
+@keyframes babbleTwo {
+    50%{
+        top: 21rem;
+        width: 12rem;
+        height: 12rem;
+    }
+}
+.babble-3{
+    width: 4rem;
+    height: 4rem;
+    top: 7rem;
+    left: 13rem;
+    z-index: 10;
+    animation: babbleThree ease-in-out  7s infinite;
+}
+@keyframes babbleThree {
+    50%{
+        top: 9rem;
+        left: 11rem;
+    }
+}
+
+
+.babble-4{
+    width: 6rem;
+    height: 6rem;
+    bottom: 7rem;
+    left: 17rem;
+    z-index: 10;
+    animation: babbleFour ease-in-out  7s infinite;
+}
+@keyframes babbleFour {
+    50%{
+        bottom: 6rem;
+        left: 18rem;    
+    }
+}
+.babble-5{
+    width: 5rem;
+    height: 5rem;
+    top: 15rem;
+    left: 14rem;
+    z-index: 12;
+    animation: babbleFive ease-in-out 7s infinite;
+}
+@keyframes babbleFive {
+    50%{
+        top: 13rem;
+        left: 12rem;   
+    }
+}
+.babble-6{
+    width: 10rem;
+    left: 14rem;
+    z-index: 12;
+    animation: babbleSix ease-in-out  7s infinite;
+
+}
+@keyframes babbleSix {
+    50%{
+        width: 8rem;
+        left: 16rem;
+    }
+}
+
+.babble-7{
+    width: 3rem;
+    height: 3rem;
+    left: 3rem;
+    top: 30rem;
+    z-index: 12;
+    animation: babbleSeven ease-in-out  7s infinite;
+}
+
+@keyframes babbleSeven {
+    50%{
+        left: 4rem;
+        top: 33rem;
+    }
+}
+
+.babble-8{
+    width: 7rem;
+    height: 7rem;
+    left: 3rem;
+    bottom: 7rem;
+    z-index: 12;
+    animation: babbleEight ease-in-out  7s infinite;
+}
+
+@keyframes babbleEight {
+    50%{
+        left: 1rem;
+        bottom: 6rem;
+        height: 8rem;
+        width: 8rem;
+    }
+}

@@ -1,0 +1,42 @@
+.header{
+    position:absolute;
+}
+
+.container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: x mandatory;
+    overflow-y: auto;
+
+}
+
+.child {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: end;
+    background-image: url("../img/BGC.jpg");
+    background-repeat: no-repeat;
+    background-size: 300% 100%;
+    height: 100%;
+    width: 100%;
+    /* z-index: 5; */
+}
+
+.child_1{
+    position: relative;
+    background-position-x: 0%;
+}
+
+.child_2{
+    background-position-x: 50%;
+}
+
+.child_3{
+    background-position-x: 100%;
+}   
