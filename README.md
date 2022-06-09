@@ -1,8 +1,8 @@
 https://strmikhail.github.io/Test-Task-Frontend/
 
 Created for IPad touch interface
+<br>
 1.Animations
-
 ![image](https://user-images.githubusercontent.com/65078710/172832000-89dd8ce6-9111-4884-8b96-5d4097af591d.png)
 2.Custom scrollbar
 
